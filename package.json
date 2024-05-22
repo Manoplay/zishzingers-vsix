@@ -1,0 +1,25 @@
+{
+  "name": "zishzingers",
+  "displayName": "zishzingers",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "zishzingers",
+      "aliases": ["A#", "zishzingers"],
+      "extensions": [".as"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "zishzingers",
+      "scopeName": "source.zishzingers",
+      "path": "./syntaxes/zishzingers.tmLanguage.json"
+    }]
+  }
+}

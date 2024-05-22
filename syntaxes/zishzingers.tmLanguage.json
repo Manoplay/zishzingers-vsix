@@ -1,0 +1,61 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "A#",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#types"
+		},
+		{
+			"include": "#comment"
+		},
+		{
+			"include": "#operators"
+		},
+		{
+			"include": "#constants"
+		}
+	],
+	"repository": {
+		"constants": {
+			"patterns": [{
+				"name": "constant.numeric.zishzingers",
+				"match": "\\b((0x)?([0-9]|[A-F]|[a-f])+)\\b"
+			}]
+		},
+		"types": {
+			"patterns": [{
+				"name": "support.type.zishzingers",
+				"match": "\\b(s32|String|void|bool|s64|f32|object|guid)\\b"
+			}]
+		},
+		"operators": {
+			"patterns": [{
+				"name": "keyword.operator.zishzingers",
+				"match": "\\b(\\=\\=|\\=|\\+|\\-|\\*|\\!\\=|\\&|L|\\-\\>)\\b"
+			}]
+		},
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.zishzingers",
+				"match": "\\b(if|else|library|while|private|return|public|divergent|pub|fn|native|using|import|from|let|class|extends|true|false|this)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.single.zishzingers",
+			"begin": "'",
+			"end": "'"
+		},
+		"comment": {
+			"name": "comment.line.zishzingers",
+			"begin": "#",
+			"end": "\n"
+		}
+	},
+	"scopeName": "source.zishzingers"
+}
