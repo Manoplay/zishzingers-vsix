@@ -43,7 +43,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.zishzingers",
-				"match": "\\b(if|else|library|while|private|return|public|divergent|pub|fn|native|using|import|from|let|class|extends|true|false|this)\\b"
+				"match": "\\b(if|else|library|while|private|static|protected|return|public|divergent|pub|fn|native|using|import|from|let|class|extends|true|false|this)\\b"
 			}]
 		},
 		"strings": {
