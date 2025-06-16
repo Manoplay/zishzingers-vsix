@@ -1,8 +1,13 @@
 {
   "name": "zishzingers",
   "displayName": "zishzingers",
-  "description": "",
-  "version": "0.0.1",
+  "description": "Adds language support for Zishzingers (A#) to Visual Studio Code. It is a language used for LittleBigPlanet script development.",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Manoplay/zishzingers-vsix"
+  },
+  "publisher": "Manoplay",
   "engines": {
     "vscode": "^1.89.0"
   },
